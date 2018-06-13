@@ -1,7 +1,9 @@
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
 .box-with-shadow {
-    max-width: 650px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 50px;
 
     border: 1px solid lightgray;
@@ -48,7 +50,7 @@ header {
     width: calc(50% - 40px);
     float: left;
     margin: 20px;
-    min-height: 200px;
+    min-height: 395px;
 }
 .titulo{
     padding-bottom: 5px;
