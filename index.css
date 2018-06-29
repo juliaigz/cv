@@ -1,3 +1,8 @@
+body {
+    background-image: url(" imagen fondo.jpg");
+    background-size: cover;
+}
+
 .container {
     max-width: 950px;
     margin: auto;
@@ -11,6 +16,7 @@
     overflow: hidden;
     transition: box-shadow .3s;
     box-shadow: 10px 10px 49px -4px rgba(0,0,0,0.1);
+    background-color: white;
 }
 .box-with-shadow:hover {
     box-shadow: 10px 10px 49px -4px rgba(0,0,0,0.4);
